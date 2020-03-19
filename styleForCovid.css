@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Sen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(99, 163, 163);
+}
+
+h1, h2{
+   margin-top: 80px;
+   font-size: 40px;
+   font-family: 'Baloo Chettan 2', cursive;
+}
+
+div{
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+}
+
+.input-group{
+    width: 80vw;
+}
+
+label{
+    margin-top: 20px;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 30px;
+}
+
+h1:nth-child(1){
+    margin-top:40px;
+}
+
+p.navForCovid{
+    margin-top: 50px;
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.copy{
+    margin-top: 20px;
+    position: sticky;
+    margin-left: 10px;
+    font-size: 10px;
+    bottom: 2px;
+}
