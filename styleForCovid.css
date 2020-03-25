@@ -72,3 +72,7 @@ p.navForCovid{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.badge{
+    font-size: 25px;
+}
