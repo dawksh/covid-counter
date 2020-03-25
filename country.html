@@ -23,7 +23,7 @@
 <body>
 
     <center>
-        <label>Get Stats by Country</label>
+        <b><label>Get Stats by Country</label></b>
         <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Country Name" aria-label="Country Name"
                 aria-describedby="button-addon2" id="countryName">
@@ -35,26 +35,55 @@
     </center>
 
     <center>
-        <h2 id="currentCountry">
-
+        <h2>
+            <span class="badge badge-secondary" id="currentCountry"></span>
         </h2>
     </center>
 
+    <div class="dataContainer">
 
-    <center>
-        <h1>Total Cases:</h1>
-        <div id="totalCasesByCountry"></div>
-    </center>
+        <center>
+            <div class="card bg-dark text-white" style="width: 18rem; margin: 10px 10px">
+                <div class="card-body ">
+                    <h5 class="card-title">Total Recovered</h5>
+                    <p class="card-text" id="totalCasesByCountry"></p>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="card bg-dark text-white" style="width: 18rem; margin: 10px 10px">
+                <div class="card-body ">
+                    <h5 class="card-title">Total Deaths</h5>
+                    <p class="card-text" id="totalDeathByCountry"></p>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="card bg-dark text-white" style="width: 18rem; margin: 10px 10px">
+                <div class="card-body ">
+                    <h5 class="card-title">Total Recovered</h5>
+                    <p class="card-text" id="totalRecoveredByCountry"></p>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="card bg-dark text-white" style="width: 18rem; margin: 10px 10px">
+                <div class="card-body ">
+                    <h5 class="card-title">Total Cases Today</h5>
+                    <p class="card-text" id="totalCasesToday"></p>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div class="card bg-dark text-white" style="width: 18rem; margin: 10px 10px">
+                <div class="card-body ">
+                    <h5 class="card-title">Total Deaths Today</h5>
+                    <p class="card-text" id="totalDeathsToday"></p>
+                </div>
+            </div>
+        </center>
 
-    <center>
-        <h1>Total Deaths:</h1>
-        <div id="totalDeathByCountry"></div>
-    </center>
-
-    <center>
-        <h1>Total Recovered:</h1>
-        <div id="totalRecoveredByCountry"></div>
-    </center>
+    </div>
 
     <center>
         <p class="navForCovid">For global stats on Covid-19, <a href="/index.html">click here.</a></p>
